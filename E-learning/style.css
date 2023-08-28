@@ -1,0 +1,574 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  background-color: #255959;
+  width: 100%;
+    }
+    #title{
+      font-size: 30px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight: bold;     
+    }
+    .topbar{
+      display: flex;
+      justify-content: space-between;
+      background-color: #6FA692;
+      padding: 30px 30px;
+    }
+
+    .topbar .navbar {
+        display: flex;
+        align-items: center;
+    }
+    .topbar .navbar ul{
+        list-style: none;
+     }
+     .topbar .navbar ul li{
+        display: inline-block;
+        margin: 0px 8px;
+        width: 70px;
+        }
+     .topbar .navbar ul li a{
+      color: #000000;
+      text-decoration: none;
+     font-weight: bold;
+     font-size: 14px;
+     letter-spacing: 1px;
+         }
+
+     ul{
+        margin-left: 500px;
+      }
+
+ .log{
+  width: 110px;
+  height: 50px;
+  color: black;
+  border-radius: 10px;
+  background-color: #A67153;
+  font-weight: bold;
+  cursor: pointer;
+
+
+      }
+
+      .sign{
+        width: 80px;
+        height: 45px;
+        border-radius: 10px;
+            background-color: rgb(0, 0, 0);
+            color:cadetblue ;
+            font-weight: bold;
+            cursor: pointer;
+
+      }
+      .but{
+            margin-left: 370px;
+
+      }
+
+             
+
+.intro{
+    margin-top: 60px;
+    background-color: #6FA692;
+    width: 100%;
+    height: 450px;
+}
+
+p{
+
+    font-size: 50px;
+    margin-left: 50px;
+}
+.tex{
+        margin-top: -62px;
+        position: relative;
+        top: 100px;
+        font-weight: bold;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.im{
+  height: 100%;
+  width: 550px;
+  position: relative;
+  left: 910px;
+  bottom: 122px;
+  border-radius: 23px 0px;
+}
+#m{
+    margin-top: 8px;
+}
+
+#mmm{
+    font-weight: 900;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.mainco{
+  width: 350px;
+    height: 380px;
+    margin-top: 70px;
+    margin-left: 30px;
+    border-radius: 0px 0px 27px 0px;
+    background-color: #B2BEBF;
+
+
+
+}
+#zz{
+    border-radius: 0px 0px 86px;
+    width: 220px;
+    height: 160px;
+
+}
+#p{
+  position: relative;
+  left: 86px;
+  bottom: -17px;
+  font-size: 27px;
+    
+}
+#qw{
+  position: relative;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 8px;
+  top: 40px;
+}
+#En{
+  width: 100%;
+  height: 45px;
+  background-color: #607D8B;
+  color: black;
+  position: relative;
+  bottom: -72px;
+  border-radius: 50px 6px 36px 9px;
+  font-weight: bold;
+
+}
+
+#En2{
+  width: 100%;
+  height: 45px;
+  background-color: #607D8B;
+  color: black;
+  position: relative;
+  bottom: -100px;
+  border-radius: 50px 6px 36px 9px;
+  font-weight: bold;
+
+}
+
+#En3{
+  width: 100%;
+    height: 45px;
+    background-color: #607D8B;
+    color: black;
+    position: relative;
+    bottom: -86px;
+    border-radius: 50px 6px 36px 9px;
+    font-weight: bold;
+
+}
+#En4{
+  width: 100%;
+  height: 45px;
+  background-color: #607D8B;
+  color: black;
+  position: relative;
+  bottom: -86px;
+  border-radius: 50px 6px 36px 9px;
+  font-weight: bold;
+
+}
+
+
+
+.maincontent {
+    display: flex;
+    gap: 5px;
+    padding-bottom: 20px;
+}
+#pz{
+  position: relative;
+  left: 160px;
+  bottom: -17px;
+  font-size: 27px;
+}
+
+#px{
+  position: relative;
+  left: 85px;
+  bottom: -17px;
+  font-size: 27px;
+}
+#px1{
+  position: relative;
+  left: 150px;
+  bottom: -17px;
+  font-size: 27px;
+}
+#pv{
+  position: relative;
+  left: 95px;
+  bottom: -17px;
+  font-size: 27px;
+}
+.form_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.2);
+    z-index: 101;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0,0.1);
+    max-width: 320px;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s ease-out;
+}
+.home.show .form_container{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%,-50%) scale(1);
+
+}
+
+.form_close{
+   position: absolute;
+   top: 10px;
+   right: 20px;
+   color: #0b0217; 
+   font-size: 22px;
+   opacity: 0.7;
+   cursor: pointer;
+}
+
+.form_container h2{
+    font-size: 22px;
+    color: #0b0217; 
+    text-align: center;
+}
+.input_box{
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+}
+
+.input_box input{
+    height: 100%;
+    width: 85%;
+    border: none;
+    outline: none;
+    color: #333;
+    border-bottom: 1.5px solid #aaaaaa;
+    padding: 0 30px;
+    transition: all 0.2s ease;
+}
+.input_box i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.input_box i.email,
+.input_box i.password{
+    left: 0;
+    color: #707070;
+}
+.input_box i.pw_hide{
+    right: 0;
+    font-size: 18px;
+}
+.input_box input:focus{
+    border-color:rgba(98, 85, 165, 1) ;
+}
+.option_field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.checkbox{
+    display: flex;
+    column-gap: 8px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.form_container a{
+    color:  #A67153; ;
+    font-size: 12px;
+}
+.form_container a:hover{
+    text-decoration: underline;
+}
+.checkbox label{
+    font-size: 9px;
+    cursor: pointer;
+    user-select: none;
+    color: #0b0217;
+}
+
+.form_container .button{
+  background: #A67153;
+      margin-top: 30px;
+    width: 100%;
+    border-color: none;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: white;
+}
+#title2{
+  color: white;
+  position: relative;
+  bottom: 30px;
+  left: 1160px;
+  bottom: 106px;
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.home::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.5s ease-out;
+}
+.home.show::before{
+    opacity: 1;
+    pointer-events: auto;
+} 
+
+.signup_form{
+    display: none;
+}
+.login_signup{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px;
+}
+.form_container.active .signup_form{
+    display: block;
+}
+.form_container.active .login_form{
+    display: none;
+}
+
+.footer{
+  margin-top: -23px;
+  background-color: black;
+  height: 300px;
+  width: 100%;
+}
+#fot{
+    position: relative;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 23px;
+    top: 80px;
+    margin-bottom: 13px;
+}
+#fott{
+    position: relative;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 23px;
+    left: 263px;
+    top: -71px;
+}
+.feedback{
+  margin-top: 250px;
+  width: 100%;
+  height: 500px;
+  background-color: #6FA692;
+}
+.feedback img{
+  width: 630px;
+  height: 100%;
+  /* left: 685px; */
+  position: relative;
+  /* display: flex; */
+  border-radius: 0px 60px 0px 0px;
+}
+#f{
+  color: white;
+  text-shadow: 3px 2px #c14e88;
+  font-weight: bold;
+  position: relative;
+  bottom: 455px;
+  left: 670px;
+}
+.aaa{
+  font-weight: bold;
+  position: relative;
+  top: -405px;
+  left: 645px;
+}
+
+/* Your existing CSS code */
+
+/* Media query for screens with a maximum width of 768px (typical for phones) */
+@media (max-width: 768px) {
+  body {
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .topbar {
+      padding: 15px; /* Adjust topbar padding */
+  }
+  .im {
+    display: none; /* Hide the image on smaller screens */
+  }
+
+  .topbar .navbar ul {
+      display: none; /* Hide the navigation links */
+  }
+
+  .but {
+      margin-left: 220px; /* Remove margin for smaller screens */
+      text-align: center; /* Center the login button */
+     /* margin-top: 15px; /* Add some space at the top */
+  }
+
+  .intro {
+      height: 300px; /* Allow intro height to adjust based on content */
+      display: flex;
+      flex-direction: column-reverse; /* Stack the image below the text */
+      align-items: center;
+      padding: 20px;
+  }
+
+  .tex {
+      text-align: center; /* Center the text in the intro */
+      position: relative;
+      bottom: -600px;
+      right: 60px;
+      margin-bottom: 200px;
+  }
+
+  .im {
+      width: 100%; /* Make the image take full width */
+      height: auto; /* Allow the image to adjust its height */
+      margin-top: 20px;
+  }
+
+  .maincontent {
+      flex-direction: column; /* Stack the cards on smaller screens */
+      gap: 20px;
+      padding-bottom: 20px;
+      margin-top: 20px;
+  }
+
+  .mainco {
+      width: 70%; /* Make the cards take full width on small screens */
+      margin: 0 auto; /* Center the cards */
+      border-radius: 12px; /* Adjust border-radius */
+      background-color: #B2BEBF;
+      padding: 15px;
+  }
+
+  #p, #px, #pv {
+    left: 65px;
+  }
+
+  #pz,#px1{
+      left: 130px;
+  }
+  #f{
+    color: white;
+    text-shadow: 3px 2px #c14e88;
+    font-weight: bold;
+    position: relative;
+    bottom: -25px;
+    left: 70px;
+  }
+
+  .form_container {
+      padding: 20px; /* Increase padding for better mobile spacing */
+      max-width: 100%; /* Allow the form container to take full width */
+      width: 70%;
+  }
+
+  .form_close {
+      font-size: 18px; /* Increase font size for close button */
+  }
+
+  /* Adjust input styles for smaller screens */
+  .input_box input {
+      font-size: 12px;
+      padding-right: 9px;
+  }
+
+  .checkbox {
+      font-size: 10px; /* Reduce font size for checkbox label */
+  }
+
+  .footer {
+      margin-top: 50px; /* Increase margin for footer */
+  }
+  .feedback img{
+  display: none;
+  }
+  .aaa{
+    font-weight: bold;
+    position: relative;
+    top: 90px;
+    left: 45px;
+  }
+ 
+  
+
+  #bbbb{
+position: relative;
+right: 800px;
+top: 490px;
+  }
+  
+
+}
+h4{
+  font-size: 21px;
+  margin-left: 20px;
+}
+
+#fee{
+  width: 270px;
+  height: 50px;
+  background-color: #c14e88;
+  position: relative;
+  bottom: 330px;
+  left: 950px;
+  border-radius: 6px;
+  color: black;
+
+}
+input::placeholder{
+  color: #000000;
+position: relative;
+left: 5px;
+}
+#sub{
+  width: 115px;
+  height: 45px;
+  position: relative;
+  background-color: #A67153;
+  left: 765px;
+  border-radius: 5px;
+  bottom: 240px;
+}

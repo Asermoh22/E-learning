@@ -1,0 +1,99 @@
+body{
+    background-color: #255959;
+}
+.maindash{
+    width: 1125px;
+    height: 500px;
+    margin-top: 70px;
+    margin-left: 210px;
+    background-color: white;;
+}
+
+.clss{
+    background-color: #6FA692;
+    width: 240px;
+    padding-bottom: -25px;
+    height: 100%;
+}
+.admin-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.sid{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 35px;
+    /* margin-bottom: 64px; */
+    position: relative;
+    top: 95px;
+}
+
+
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 650px;
+    border-radius: 56px;
+    margin-top: -84px;
+}
+#email{
+    margin-left: 620px;
+    border-radius: 56px;
+    margin-top: 3px;
+    color: black;
+}
+.achivment{
+    width: 360px;
+    height: 150px;
+    margin-left: 715px;
+    margin-top: 140px;
+    border-radius: 8px;
+    box-shadow:  2px 2px 2px #A67153;
+    background-color: burlywood;
+}
+#c{
+    position: relative;
+    margin-left: 35px;
+    top: 25px;
+}
+#cc{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+input{
+    margin-left: 40px;
+    position: relative;
+    bottom: 12px;
+}
+label{
+    margin-left: 40px;
+    position: relative;
+    bottom: 15px;
+}
+
+.up{
+    width: 360px;
+    height: 150px;
+    box-shadow:  2px 2px 2px #A67153;
+    background-color: burlywood;
+
+    position: relative;
+    bottom: 165px;
+    border-radius: 8px;
+    left: 280px;
+}
+#ccc{
+    font-weight: bold;
+    margin-left: 40px;
+    line-height: 0.5;
+    position: relative;
+    top: 20px;
+}
